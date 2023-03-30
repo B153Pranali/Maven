@@ -62,7 +62,7 @@
 	</tr><br>
 
 	
-<tr><td"><input type="submit"></td></tr>
+<tr><td><input type="submit"></td></tr>
 </form>
 </table>
 </body>
