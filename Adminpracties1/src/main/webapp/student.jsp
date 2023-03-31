@@ -8,7 +8,7 @@
 </head>
 <body style="background-color:powderblue;">
 
-<h2>Registration Form Student</h2>
+<h2 style="text-align: center;">Registration Form Student</h2>
 <table>
 <form action="suc">
 	<tr>
@@ -41,9 +41,9 @@
 	</tr><br>
 
 	<tr>
-		<td><label for="mo" >Mobile No:</label></td>
-		<select><option>+91</option></select></td>
-		<td><input type="tel" id="mo" name="mobile" patten=[0-9]{10}></td>
+		<td><label for="mobile" >Mobile No:</label></td>
+		<td><select><option>+91</option></select></td>
+		<td><input type="tel" id="mobile" name="mobile" patten=[0-9]{10}></td>
 	</tr><br>
 
 	<tr>

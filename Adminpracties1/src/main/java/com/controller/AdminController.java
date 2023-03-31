@@ -3,10 +3,8 @@ package com.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-
+@Controller
 public class AdminController {
-	@Controller
-	public class Controller1 {
 
 			@RequestMapping(value = "/adminstudent")
 			public String adminstudent() {
@@ -40,4 +38,4 @@ public class AdminController {
 				return "success";
 			}
 	}
-}
+
