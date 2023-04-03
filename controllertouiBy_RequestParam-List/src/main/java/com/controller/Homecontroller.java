@@ -17,6 +17,7 @@ public String logincheck(@RequestParam("username") String u,@RequestParam("passw
 		names.add(u);
 		names.add(p);
 		m.addAttribute("name", names);
+	
 	return "seccess";
 	
 }
